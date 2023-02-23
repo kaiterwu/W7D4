@@ -16,16 +16,21 @@ span, article, footer, time, small {
   // vertical-align:
   // box-sizing:
   // background:
+  box-sizing: inherit;
 }
 
 ol, ul {
   // list-style:
+  list-style-type: none;
 }
 
 img {
   // display:
   // width:
   // height:
+  display: block;
+  width: inherit;
+  height: auto;
 }
 
 input[type="password"],
@@ -41,15 +46,21 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  
 }
 
 button,
 input[type="submit"] {
   // cursor:
+  cursor: pointer;
 }
 
 /* Clearfix */
 
 .group:after {
   // ...
+  content: "";
+  clear: both;
+  display: table;
 }
+

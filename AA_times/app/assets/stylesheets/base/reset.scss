@@ -65,4 +65,9 @@ input[type="submit"] {
   clear: both;
   display: table;
 }
+ul {
+  margin-left: 0px;
+  /* set to 0 if your not using a list-style-type */
+  padding-left: 0px;
+}
 
